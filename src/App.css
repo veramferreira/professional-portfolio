@@ -1,8 +1,28 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+
+ul {
+  font-family: "Roboto Mono", monospace;
+  list-style: none;
+  display: flex;
+  color: var(--bright-yellow);
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+li {
+margin: 0 5px;
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+  padding: 0 2.5rem;
+  color: var(--bright-pink);
+  font-size: 4rem;
+}
+
+.header--h2 {
+  font-family: "Roboto Mono", monospace;
+  padding: 0 2.5rem;
 }
 
 .logo {
