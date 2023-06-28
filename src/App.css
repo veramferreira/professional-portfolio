@@ -1,28 +1,52 @@
 
-
+/* NAVBAR */
 ul {
   font-family: "Roboto Mono", monospace;
   list-style: none;
   display: flex;
   color: var(--bright-yellow);
-  justify-content: space-between;
-  align-content: flex-start;
 }
 
 li {
-margin: 0 5px;
+  margin: 0 10px;
+  padding: 5px;
 }
 
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav--a{
+  color: var(--bright-yellow);
+}
+
+/* HEADER */
+
 h1 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Poppins", sans-serif;
   padding: 0 2.5rem;
   color: var(--bright-pink);
   font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.header{
+  min-height: 100vh;
 }
 
 .header--h2 {
-  font-family: "Roboto Mono", monospace;
-  padding: 0 2.5rem;
+  font-family: "Poppins", sans-serif;
+  padding: 0rem 2.5rem;
+  color: var(--dark-pink);
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 0.05rem;
+}
+
+.header--p {
+  color: var(--dark-pink);
 }
 
 .logo {
