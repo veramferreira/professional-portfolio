@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className=" bg-bright-pink px-10 py-10 sticky top-0" id="about">
+    <section className=" bg-bright-pink px-10 py-10 sticky-section pb-96" id="about" style={{ scrollMarginTop: '150px' }}>
       <h2 className=" font-poppins font-bold text-3xl text-deep-blue">about</h2>
       <p className=" text-deep-blue pt-10 normal-case font-mono">
         With a strong foundation in nursing, I bring a unique perspective to the
@@ -99,7 +99,7 @@ export default function About() {
           style={{ width: "80%" }}
         ></div>
       </div>
-      <div>
+      <div className=" pb-60">
         <h4 className=" font-poppins font-bold text-2xl text-deep-blue pt-10">other skills</h4>
         <div className=" flex flex-wrap gap-3 mt-10">
         <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">Test Driven Development</p>

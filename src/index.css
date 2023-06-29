@@ -56,15 +56,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.sticky-section {
+  position: sticky;
+  top: 0;
+}
+
+@media (max-width: 768px) {
+  #about {
+    order: 2;
+    margin-bottom: 300px; /* Adjust the value as needed */
   }
-  a:hover {
-    color: #747bff;
+
+  #experience {
+    order: 1;
   }
-  /* button {
-    background-color: #f9f9f9;
-  } */
 }
