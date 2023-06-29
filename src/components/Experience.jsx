@@ -18,7 +18,7 @@ export default function Experience() {
             Junior Software Developer Student
             </h3>
             <p className="mb-4 text-base font-normal ">
-            Successfully completed a 13-week software development bootcamp, covering full-stack web development with JavaScript, Node.js, React, and PSQL
+            Successfully completed a 13-week software development bootcamp, covering full-stack web development with JavaScript, Node.js, React, and PSQL.
             </p>
           </li>
           <li className="mb-10 ml-4">
@@ -30,7 +30,7 @@ export default function Experience() {
               Freelancer Web Designer/Developer
             </h3>
             <p className="text-base font-normal ">
-            Solidified client's online presence by creating and designing WordPress and Shopify websites with simple yet engaging designs and interactive, accessible and responsive interfaces
+            Solidified client's online presence by creating and designing WordPress and Shopify websites with simple yet engaging designs and interactive, accessible and responsive interfaces.
             </p>
           </li>
           <li className="ml-4">

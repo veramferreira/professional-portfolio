@@ -14,6 +14,7 @@ export default {
       'deep-blue' : '#0a192f',
       'bright-yellow': '#fde58e',
       'bright-pink': '#fd8e8e',
+      'white': '#fff',
     }
   },
   plugins: [],

@@ -62,9 +62,18 @@ button:focus-visible {
 }
 
 @media (max-width: 768px) {
+  #header {
+    padding-left: 0;
+  }
+  #header--h1 {
+    font-size: 3.3rem;
+  }
+  #header--h2 {
+    font-size: 1.7rem;
+  }
   #about {
     order: 2;
-    margin-bottom: 300px; /* Adjust the value as needed */
+    margin-bottom: 300px;
   }
 
   #experience {

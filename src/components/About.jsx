@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className=" bg-bright-pink px-10 py-10 sticky-section pb-96" id="about" style={{ scrollMarginTop: '150px' }}>
+    <section className=" bg-bright-pink px-10 py-10 sticky-section pb-96" id="about" >
       <h2 className=" font-poppins font-bold text-3xl text-deep-blue">about</h2>
       <p className=" text-deep-blue pt-10 normal-case font-mono">
         With a strong foundation in nursing, I bring a unique perspective to the
