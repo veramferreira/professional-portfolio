@@ -1,6 +1,9 @@
 export default function About() {
   return (
-    <section className=" bg-bright-pink px-10 py-10 sticky-section pb-96" id="about" >
+    <section
+      className=" bg-bright-pink px-10 py-10 sticky-section pb-96"
+      id="about"
+    >
       <h2 className=" font-poppins font-bold text-3xl text-deep-blue">about</h2>
       <p className=" text-deep-blue pt-10 normal-case font-mono">
         With a strong foundation in nursing, I bring a unique perspective to the
@@ -17,8 +20,22 @@ export default function About() {
         skills
       </h3>
 
-      <div className="flex justify-between mb-1  mt-10">
-        <span className="text-base font-medium text-deep-blue font-mono">HTML</span>
+      <div className="flex flex-wrap gap-3 justify-between mb-1  mt-10">
+        <img src="html.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="css3.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="javascript.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="typescript.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="react.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="tailwind-css.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="firebase.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="github.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="git.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="express.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="npm.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="github.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        {/* <span className="text-base font-medium text-deep-blue font-mono">
+          HTML
+        </span>
       </div>
       <div className="w-full bg-bright-yellow rounded-full h-2.5">
         <div
@@ -27,8 +44,10 @@ export default function About() {
         ></div>
       </div>
       <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">CSS</span>      
-        </div>
+        <span className="text-base font-medium text-deep-blue font-mono">
+          CSS
+        </span>
+      </div>
       <div className="w-full bg-bright-yellow rounded-full h-2.5">
         <div
           className=" bg-deep-blue h-2.5 rounded-full"
@@ -36,7 +55,9 @@ export default function About() {
         ></div>
       </div>
       <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">React</span>
+        <span className="text-base font-medium text-deep-blue font-mono">
+          React
+        </span>
       </div>
       <div className="w-full bg-bright-yellow rounded-full h-2.5">
         <div
@@ -45,7 +66,9 @@ export default function About() {
         ></div>
       </div>
       <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">JavaScript</span>
+        <span className="text-base font-medium text-deep-blue font-mono">
+          JavaScript
+        </span>
       </div>
       <div className="w-full bg-bright-yellow rounded-full h-2.5">
         <div
@@ -54,7 +77,9 @@ export default function About() {
         ></div>
       </div>
       <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">React Native</span>
+        <span className="text-base font-medium text-deep-blue font-mono">
+          React Native
+        </span>
       </div>
       <div className="w-full bg-bright-yellow rounded-full h-2.5">
         <div
@@ -63,7 +88,9 @@ export default function About() {
         ></div>
       </div>
       <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">Typescript</span>
+        <span className="text-base font-medium text-deep-blue font-mono">
+          Typescript
+        </span>
       </div>
       <div className="w-full bg-bright-yellow rounded-full h-2.5">
         <div
@@ -72,7 +99,9 @@ export default function About() {
         ></div>
       </div>
       <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">PSQL</span>
+        <span className="text-base font-medium text-deep-blue font-mono">
+          PSQL
+        </span>
       </div>
       <div className="w-full bg-bright-yellow rounded-full h-2.5">
         <div
@@ -80,9 +109,11 @@ export default function About() {
           style={{ width: "85%" }}
         ></div>
       </div>
-    
+
       <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">Tailwind CSS</span>
+        <span className="text-base font-medium text-deep-blue font-mono">
+          Tailwind CSS
+        </span>
       </div>
       <div className="w-full bg-bright-yellow rounded-full h-2.5">
         <div
@@ -91,7 +122,9 @@ export default function About() {
         ></div>
       </div>
       <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">Firebase</span>
+        <span className="text-base font-medium text-deep-blue font-mono">
+          Firebase
+        </span>
       </div>
       <div className="w-full bg-bright-yellow rounded-full h-2.5">
         <div
@@ -100,16 +133,32 @@ export default function About() {
         ></div>
       </div>
       <div className=" pb-60">
-        <h4 className=" font-poppins font-bold text-2xl text-deep-blue pt-10">other skills</h4>
+        <h4 className=" font-poppins font-bold text-2xl text-deep-blue pt-10">
+          other skills
+        </h4>
         <div className=" flex flex-wrap gap-3 mt-10">
-        <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">Test Driven Development</p>
-        <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">WordPress</p>
-        <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">Shopify</p>
-        <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">Agile</p>
-        <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">Photoshop</p>
-        <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">Figma</p>
-        <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">Design</p>
-        </div>
+          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
+            Test Driven Development
+          </p>
+          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
+            WordPress
+          </p>
+          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
+            Shopify
+          </p>
+          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
+            Agile
+          </p>
+          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
+            Photoshop
+          </p>
+          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
+            Figma
+          </p>
+          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
+            Design
+          </p>
+        </div> */}
       </div>
     </section>
   );
