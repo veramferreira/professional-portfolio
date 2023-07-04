@@ -33,7 +33,7 @@ export const projectsData = [
     category: "Web Application",
     img: WebImage2,
     description:
-      "V News is a social news aggregator built with React and styled with a mix of vanilla CSS and Material-UI. This project consumes an API created also by me (https://vera-news.onrender.com/api/) and displays articles across different topics. This website was created as a personal project during the 13-weeks Software Development Bootcamp with Northcoders",
+      "V News is a social news aggregator built with React and styled with a mix of vanilla CSS and Material-UI. This project consumes an API created also by me and displays articles across different topics. This website was created as a personal project during the 13-weeks Software Development Bootcamp with Northcoders",
     appDemo: "https://v-nc-news.netlify.app/",
     appCode: "https://github.com/veramferreira/vera-news-fe",
     techStack: [

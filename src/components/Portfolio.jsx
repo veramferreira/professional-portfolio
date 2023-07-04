@@ -4,8 +4,11 @@ import Popup from "./Popup";
 
 export default function Portfolio() {
   const [isOpen, setIsOpen] = useState(false);
+  const [selectedProjectIndex, setSelectedProjectIndex] = useState(null);
 
-  const togglePopup = () => {
+
+  const togglePopup = (projectIndex) => {
+    setSelectedProjectIndex(projectIndex)
     setIsOpen(!isOpen);
   }
 
@@ -22,8 +25,8 @@ export default function Portfolio() {
         projects by clicking in the images.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10" onClick={togglePopup}>
-        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white  dark:bg-ternary-dark">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10" >
+        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white  dark:bg-ternary-dark" onClick={() => togglePopup(0)}>
           <h4 className=" text-deep-blue font-mono font-bold text-lg text-center px-4 py-6">
             LocaLink - Mobile App
           </h4>
@@ -33,25 +36,18 @@ export default function Portfolio() {
               <img
                 src={`./public/${tech.image}`}
                 alt=""
-                key={tech}
+                key={tech.id}
                 className="w-10 h-10"
               />
             ))}
           </div>
         </div>
-          {isOpen && <Popup
-      content={<>
-        <h2 className=" text-deep-blue font-poppins font-bold">{projectsData[0].title}</h2>
-        <p  className=" text-deep-blue font-mono text-xs tracking-tighter my-5">{projectsData[0].description}</p>
-        <div className=" flex justify-start gap-5">
-          <a href={projectsData[0].appDemo} className=" bg-bright-pink px-5 py-3 rounded-lg text-deep-blue font-poppins text-xs font-bold shadow-md cursor-pointer hover:scale-105 transition-all">app demo</a>
-          <a href={projectsData[0].appCode} className=" bg-bright-pink px-5 py-3 rounded-lg text-deep-blue font-poppins text-xs font-bold shadow-md cursor-pointer hover:scale-105 transition-all">app code</a>
-        </div>
-      </>}
+          {isOpen && selectedProjectIndex !== null && <Popup
+      content={selectedProjectIndex}
       handleClose={togglePopup}
     />}
 
-        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white  dark:bg-ternary-dark ">
+        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white  dark:bg-ternary-dark " onClick={() => togglePopup(1)}>
           <h4 className=" text-deep-blue font-mono font-bold text-lg text-center  px-4 py-6">
             V News - Website
           </h4>
@@ -61,25 +57,14 @@ export default function Portfolio() {
               <img
                 src={`./public/${tech.image}`}
                 alt=""
-                key={tech}
+                key={tech.id}
                 className="w-10 h-10"
               />
             ))}
           </div>
         </div>
-        {isOpen && <Popup
-      content={<>
-        <h2 className=" text-deep-blue font-poppins font-bold">{projectsData[1].title}</h2>
-        <p  className=" text-deep-blue font-mono text-xs tracking-tighter my-5">{projectsData[1].description}</p>
-        <div className=" flex justify-start gap-5">
-          <a href={projectsData[1].appDemo} className=" bg-bright-pink px-5 py-3 rounded-lg text-deep-blue font-poppins text-xs font-bold shadow-md cursor-pointer hover:scale-105 transition-all">app demo</a>
-          <a href={projectsData[1].appCode} className=" bg-bright-pink px-5 py-3 rounded-lg text-deep-blue font-poppins text-xs font-bold shadow-md cursor-pointer hover:scale-105 transition-all">app code</a>
-        </div>
-      </>}
-      handleClose={togglePopup}
-    />}
 
-        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white dark:bg-ternary-dark">
+        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white dark:bg-ternary-dark" onClick={() => togglePopup(2)}>
           <h4 className=" text-deep-blue font-mono font-bold text-lg text-center px-4 py-6">
             Home Clinical Trials - WordPress
           </h4>
@@ -89,14 +74,15 @@ export default function Portfolio() {
               <img
                 src={`./public/${tech.image}`}
                 alt=""
-                key={tech}
+                key={tech.id}
                 className="w-10 h-10"
               />
             ))}
           </div>
         </div>
+        
 
-        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white dark:bg-ternary-dark">
+        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white dark:bg-ternary-dark" onClick={() => togglePopup(3)}>
           <h4 className=" text-deep-blue font-mono font-bold text-lg text-center  px-4 py-6">
             LordSaude Clinic
           </h4>
@@ -106,14 +92,14 @@ export default function Portfolio() {
               <img
                 src={`./public/${tech.image}`}
                 alt=""
-                key={tech}
+                key={tech.id}
                 className="w-10 h-10"
               />
             ))}
           </div>
         </div>
 
-        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white  dark:bg-ternary-dark">
+        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white  dark:bg-ternary-dark" onClick={() => togglePopup(4)}>
           <h4 className=" text-deep-blue font-mono font-bold text-lg text-center  px-4 py-6">
             Mindmoodpsychonutrition
           </h4>
@@ -124,7 +110,7 @@ export default function Portfolio() {
               <img
                 src={`./public/${tech.image}`}
                 alt=""
-                key={tech}
+                key={tech.id}
                 className="w-10 h-10"
               />
             ))}
