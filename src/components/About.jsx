@@ -20,145 +20,25 @@ export default function About() {
         skills
       </h3>
 
-      <div className="flex flex-wrap gap-3 justify-between mb-1  mt-10">
-        <img src="html.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
-        <img src="css3.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
-        <img src="javascript.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
-        <img src="typescript.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
-        <img src="react.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
-        <img src="tailwind-css.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
-        <img src="firebase.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
-        <img src="github.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
-        <img src="git.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
-        <img src="express.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
-        <img src="npm.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
-        <img src="github.png" alt="" className=" w-20 h-20 bg-white border-8 rounded-md"/>
-        {/* <span className="text-base font-medium text-deep-blue font-mono">
-          HTML
-        </span>
-      </div>
-      <div className="w-full bg-bright-yellow rounded-full h-2.5">
-        <div
-          className=" bg-deep-blue h-2.5 rounded-full"
-          style={{ width: "95%" }}
-        ></div>
-      </div>
-      <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">
-          CSS
-        </span>
-      </div>
-      <div className="w-full bg-bright-yellow rounded-full h-2.5">
-        <div
-          className=" bg-deep-blue h-2.5 rounded-full"
-          style={{ width: "94%" }}
-        ></div>
-      </div>
-      <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">
-          React
-        </span>
-      </div>
-      <div className="w-full bg-bright-yellow rounded-full h-2.5">
-        <div
-          className=" bg-deep-blue h-2.5 rounded-full"
-          style={{ width: "92%" }}
-        ></div>
-      </div>
-      <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">
-          JavaScript
-        </span>
-      </div>
-      <div className="w-full bg-bright-yellow rounded-full h-2.5">
-        <div
-          className=" bg-deep-blue h-2.5 rounded-full"
-          style={{ width: "90%" }}
-        ></div>
-      </div>
-      <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">
-          React Native
-        </span>
-      </div>
-      <div className="w-full bg-bright-yellow rounded-full h-2.5">
-        <div
-          className=" bg-deep-blue h-2.5 rounded-full"
-          style={{ width: "90%" }}
-        ></div>
-      </div>
-      <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">
-          Typescript
-        </span>
-      </div>
-      <div className="w-full bg-bright-yellow rounded-full h-2.5">
-        <div
-          className=" bg-deep-blue h-2.5 rounded-full"
-          style={{ width: "85%" }}
-        ></div>
-      </div>
-      <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">
-          PSQL
-        </span>
-      </div>
-      <div className="w-full bg-bright-yellow rounded-full h-2.5">
-        <div
-          className=" bg-deep-blue h-2.5 rounded-full"
-          style={{ width: "85%" }}
-        ></div>
-      </div>
-
-      <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">
-          Tailwind CSS
-        </span>
-      </div>
-      <div className="w-full bg-bright-yellow rounded-full h-2.5">
-        <div
-          className=" bg-deep-blue h-2.5 rounded-full"
-          style={{ width: "95%" }}
-        ></div>
-      </div>
-      <div className="flex justify-between mb-1  mt-5">
-        <span className="text-base font-medium text-deep-blue font-mono">
-          Firebase
-        </span>
-      </div>
-      <div className="w-full bg-bright-yellow rounded-full h-2.5">
-        <div
-          className=" bg-deep-blue h-2.5 rounded-full"
-          style={{ width: "80%" }}
-        ></div>
-      </div>
-      <div className=" pb-60">
-        <h4 className=" font-poppins font-bold text-2xl text-deep-blue pt-10">
-          other skills
-        </h4>
-        <div className=" flex flex-wrap gap-3 mt-10">
-          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
-            Test Driven Development
-          </p>
-          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
-            WordPress
-          </p>
-          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
-            Shopify
-          </p>
-          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
-            Agile
-          </p>
-          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
-            Photoshop
-          </p>
-          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
-            Figma
-          </p>
-          <p className=" bg-bright-yellow px-7 py-2 rounded-2xl text-deep-blue font-mono tracking-tight">
-            Design
-          </p>
-        </div> */}
+      <div className="flex flex-wrap gap-3 justify-center mb-1  mt-10">
+        <img src="html.png" alt="html logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="css3.png" alt="css logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="javascript.png" alt="javascript logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="typescript.png" alt="typescript logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="react.png" alt="react logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="tailwind-css.png" alt="tailwind css logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="firebase.png" alt="firebase logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="github.png" alt="github logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="git.png" alt="git logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="express.png" alt="express logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="npm.png" alt="npm logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="wordpress.png" alt="wordpress logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="shopify.png" alt="shopify logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="figma.png" alt="figma logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="adobe-photoshop.png" alt="photoshop logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="expo-go.png" alt="expo-go logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="jest.png" alt="jest logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+        <img src="psql.svg.png" alt="postgreSQL logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
       </div>
     </section>
   );
