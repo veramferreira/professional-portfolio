@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section
-      className=" bg-bright-pink px-10 py-10 sticky-section pb-96"
+      className=" bg-bright-pink px-10 py-10 sticky-section"
       id="about"
     >
       <h2 className=" font-poppins font-bold text-3xl text-deep-blue">about</h2>
