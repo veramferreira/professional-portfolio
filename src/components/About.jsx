@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section
-      className=" bg-bright-pink px-10 py-10 sticky-section"
+      className="bg-bright-pink px-10 pt-10 sticky-section"
       id="about"
     >
       <h2 className=" font-poppins font-bold text-3xl text-deep-blue">about</h2>
@@ -20,7 +20,7 @@ export default function About() {
         skills
       </h3>
 
-      <div className="flex flex-wrap gap-3 justify-center mb-1  mt-10">
+      <div className="flex flex-wrap gap-3 justify-center mb-1  mt-10" id="about--skills">
         <img src="html.png" alt="html logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
         <img src="css3.png" alt="css logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
         <img src="javascript.png" alt="javascript logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>

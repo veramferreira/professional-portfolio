@@ -9,7 +9,7 @@ import SectionPic from "./components/SectionPic";
 
 function App() {
   return (
-    <>
+    <section id="app">
       <Navbar />
       <Header />
       <SectionPic />
@@ -17,7 +17,7 @@ function App() {
       <Experience />
       <Portfolio />
       <Contact/>
-    </>
+    </section>
   );
 }
 

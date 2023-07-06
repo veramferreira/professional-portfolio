@@ -99,7 +99,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white  dark:bg-ternary-dark" onClick={() => togglePopup(4)}>
+        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white dark:bg-ternary-dark" onClick={() => togglePopup(4)}>
           <h4 className=" text-deep-blue font-mono font-bold text-lg text-center  px-4 py-6">
             Mindmoodpsychonutrition
           </h4>
