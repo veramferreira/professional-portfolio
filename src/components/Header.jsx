@@ -11,8 +11,9 @@ export default function Header() {
           <p>📺 entertainment aficionada</p>
           <p>🇵🇹 portuguese living in the UK 🇬🇧</p>
         </section>
-        <section className="px-10 pt-10 pb-40">
-            <button className=" font-bold font-mono bg-deep-blue border-bright-yellow text-bright-yellow transition-all ease-in duration-300 hover:scale-105 hover:bg-bright-yellow hover:text-deep-blue">let's work together</button>
+        <section className="px-10 pt-10 pb-40 ">
+
+            <a href="#contact" className=" font-bold font-mono text-xs  text-bright-yellow transition-all ease-in duration-300 hover:bg-bright-yellow hover:text-deep-blue px-5 py-2 border rounded-lg hover:scale-105">let's work together</a>
         </section>
       </div>
     );
