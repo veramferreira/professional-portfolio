@@ -30,11 +30,11 @@ export default function Portfolio() {
           <h4 className=" text-deep-blue font-mono font-bold text-lg text-center px-4 py-6">
             LocaLink - Mobile App
           </h4>
-          <img src="./public/localink.png" alt="" className=" border-none" />
+          <img src="localink.png" alt="" className=" border-none" />
           <div className="flex flex-wrap gap-3 justify-center mb-1 mt-10 px-4">
             {projectsData[0].techStack.map((tech) => (
               <img
-                src={`./public/${tech.image}`}
+                src={`${tech.image}`}
                 alt=""
                 key={tech.id}
                 className="w-10 h-10"
@@ -51,11 +51,11 @@ export default function Portfolio() {
           <h4 className=" text-deep-blue font-mono font-bold text-lg text-center  px-4 py-6">
             V News - Website
           </h4>
-          <img src="./public/vnews.png" alt="" className=" border-none" />
+          <img src="vnews.png" alt="" className=" border-none" />
           <div className="flex flex-wrap gap-3 justify-center mb-1 mt-10 px-4">
             {projectsData[1].techStack.map((tech) => (
               <img
-                src={`./public/${tech.image}`}
+                src={`${tech.image}`}
                 alt=""
                 key={tech.id}
                 className="w-10 h-10"
@@ -68,11 +68,11 @@ export default function Portfolio() {
           <h4 className=" text-deep-blue font-mono font-bold text-lg text-center px-4 py-6">
             Home Clinical Trials - WordPress
           </h4>
-          <img src="./public/hct.png" alt="" className=" border-none" />
+          <img src="hct.png" alt="" className=" border-none" />
           <div className="flex flex-wrap gap-3 justify-center mb-1 mt-10 px-4">
             {projectsData[2].techStack.map((tech) => (
               <img
-                src={`./public/${tech.image}`}
+                src={`${tech.image}`}
                 alt=""
                 key={tech.id}
                 className="w-10 h-10"
@@ -86,11 +86,11 @@ export default function Portfolio() {
           <h4 className=" text-deep-blue font-mono font-bold text-lg text-center  px-4 py-6">
             LordSaude Clinic
           </h4>
-          <img src="./public/lordsaude.png" alt="" className=" border-none" />
+          <img src="lordsaude.png" alt="" className=" border-none" />
           <div className="flex flex-wrap gap-3 justify-center mb-1 mt-10 px-4">
             {projectsData[3].techStack.map((tech) => (
               <img
-                src={`./public/${tech.image}`}
+                src={`${tech.image}`}
                 alt=""
                 key={tech.id}
                 className="w-10 h-10"
@@ -104,11 +104,11 @@ export default function Portfolio() {
             Mindmoodpsychonutrition
           </h4>
 
-          <img src="./public/mindmood.png" alt="" className=" border-none" />
+          <img src="mindmood.png" alt="" className=" border-none" />
           <div className="flex flex-wrap gap-3 justify-center mb-1 mt-10 px-4">
             {projectsData[4].techStack.map((tech) => (
               <img
-                src={`./public/${tech.image}`}
+                src={`${tech.image}`}
                 alt=""
                 key={tech.id}
                 className="w-10 h-10"
