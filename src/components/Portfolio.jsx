@@ -14,7 +14,7 @@ export default function Portfolio() {
 
   return (
     <section
-      className="sticky-section bg-bright-yellow px-10 py-10"
+      className=" bg-bright-yellow px-10 py-10"
       id="portfolio"
     >
       <h2 className="font-poppins font-bold text-3xl text-deep-blue">

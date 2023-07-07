@@ -62,14 +62,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.sticky-section {
-  position: sticky;
-  top: 0;
-  /* height: calc(100vh - 60px);  max-width: 100%; */
-  /* overflow-y: auto;  */
-
-}
-
 .popup-box {
   position: fixed;
   background: #0a192f8a;
@@ -123,42 +115,34 @@ button:focus-visible {
     font-size: 1.7rem;
   }
 
-  #about { 
-    /* margin-bottom: 300px; */
-    /* z-index: 300; */
-    /* padding-bottom: 300px; */
-    padding-bottom: 4rem;  
-  } 
-   .experience-section { 
-    /* margin-top: 100px; */
-    /* margin-bottom: 800px; */
-    /* z-index: 0; */
-    /* height: 100%; */
-    margin-top: 8rem;
-   }
-  
+}
 
-  .sticky-section {
-    position: sticky;
-  top: 0;
-  height: calc(100vh - 60px); /* Adjust the height value as desired */
-  max-width: 100%;
-  overflow-y: auto; 
+@media (max-width: 1400px) {
+  #about, #experience, #portfolio {
+    padding-bottom: 4.5rem;
   }
 
 }
 
-@media (max-width: 1800px) {
+
+@media (min-w00px) {
 
   #about {
+    position: sticky;
+    top: 0;
     padding-bottom: 300px;
   }
 
   #experience {
+    position: sticky;
+    top: 0;
     padding-bottom: 500px;
   }
 
   #portfolio {
+    position: sticky;
+    top: 0;
     padding-bottom: 400px;
   }
+
 }
