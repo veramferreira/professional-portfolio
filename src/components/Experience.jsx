@@ -1,7 +1,7 @@
 export default function Experience() {
   return (
     <section
-      className=" bg-deep-blue px-10 py-10 pb-20 "
+      className=" bg-deep-blue px-20 py-10 pb-20 "
       id="experience" 
     >
       <h2 className=" font-poppins font-bold text-3xl text-bright-yellow">
