@@ -71,15 +71,15 @@ body {
   }
 }
 
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
   #about,
   #experience,
   #portfolio {
     padding-bottom: 4.5rem;
   }
-}
+} */
 
-@media (min-with: 1400px) {
+/* @media (max-with: 1800px) {
   #about {
     position: sticky;
     top: 0;
@@ -97,4 +97,4 @@ body {
     top: 0;
     padding-bottom: 400px;
   }
-}
+} */

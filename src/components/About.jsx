@@ -20,7 +20,7 @@ export default function About() {
         skills
       </h3>
 
-      <div className="flex flex-wrap gap-3 justify-center  mt-10" id="about--skills">
+      <div className="flex flex-wrap gap-3 justify-center  mt-10 pb-16" id="about--skills">
         <img src="html.png" alt="html logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
         <img src="css3.png" alt="css logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
         <img src="javascript.png" alt="javascript logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>

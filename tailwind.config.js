@@ -15,6 +15,13 @@ export default {
       'bright-yellow': '#fde58e',
       'bright-pink': '#fd8e8e',
       'white': '#fff',
+    },
+    extend: {
+      padding: {
+        'pb:300': '300px',
+        'pb:500': '500px',
+        'pb:400': '400px',
+      }
     }
   },
   
