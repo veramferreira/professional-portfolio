@@ -12,10 +12,13 @@ function App() {
       <Navbar />
       <Header />
       <SectionPic />
+      <div className=" relative z-10">
+        
       <About />
       <Experience />
       <Portfolio />
       <Contact/>
+      </div>
     </section>
   );
 }
