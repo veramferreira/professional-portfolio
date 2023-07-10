@@ -8,11 +8,10 @@ body {
 }
 
 :root {
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   --deep-blue: #0a192f;
-  --bright-pink:#fd8e8e;
+  --bright-pink: #fd8e8e;
   --bright-yellow: #fde58e;
   --dark-pink: #fd8e8eb7;
   --dark-yellow: #d2b95c;
@@ -27,7 +26,7 @@ body {
   top: 0;
   left: 0;
 }
- 
+
 .box {
   position: relative;
   width: 70%;
@@ -43,7 +42,7 @@ body {
 }
 
 .close-icon {
-  content: 'x';
+  content: "x";
   cursor: pointer;
   position: fixed;
   right: calc(15% - 30px);
@@ -61,7 +60,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
   #header {
     padding-left: 0;
   }
@@ -71,18 +69,17 @@ body {
   #header--h2 {
     font-size: 1.7rem;
   }
-
 }
 
 @media (max-width: 1400px) {
-  #about, #experience, #portfolio {
+  #about,
+  #experience,
+  #portfolio {
     padding-bottom: 4.5rem;
   }
-
 }
 
-@media (min-w00px) {
-
+@media (min-with: 1400px) {
   #about {
     position: sticky;
     top: 0;
@@ -100,5 +97,4 @@ body {
     top: 0;
     padding-bottom: 400px;
   }
-
 }
