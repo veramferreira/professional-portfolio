@@ -1,10 +1,29 @@
+import SplitType from "split-type";
+import { gsap } from "gsap";
+
 export default function Header() {
+  const text = new SplitType("#header--h1");
+
+  const characters = document.getElementsByClassName("char");
+
+  for (let i = 0; i < characters.length; i++) {
+    characters[i].classList.add("translate-y-full");
+  }
+
+  gsap.to(".char", {
+    y: 0,
+    stagger: 0.05,
+    delay: 0.02,
+    duration: 0.5,
+  });
+
   return (
     <div className=" pl-20" id="header">
       <section className="px-10 pt-40">
         <h1
           className=" font-poppins font-extrabold text-7xl text-bright-pink"
           id="header--h1"
+          style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)" }}
         >
           vera ferreira
         </h1>

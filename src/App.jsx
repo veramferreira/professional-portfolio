@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import SectionPic from "./components/SectionPic";
 
+
 function App() {
   return (
     <section id="app">
