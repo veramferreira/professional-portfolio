@@ -22,6 +22,7 @@ npm run build
 - JavaScript
 - Tailwind CSS
 - React Icons
+- GreenSock
 
 ### Licenses:
 I've used [IconScot](https://iconscout.com/) for all the tech logos on this website. 
