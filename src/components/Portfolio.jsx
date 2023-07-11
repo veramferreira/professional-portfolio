@@ -14,13 +14,13 @@ export default function Portfolio() {
 
   return (
     <section
-      className=" bg-bright-yellow px-20 py-10 "
+      className=" bg-bright-yellow px-20 py-10  2xl:py-52"
       id="portfolio"
     >
-      <h2 className="font-poppins font-bold text-3xl text-deep-blue">
+      <h2 className="font-poppins font-bold text-3xl text-deep-blue 2xl:text-4xl">
         portfolio
       </h2>
-      <p className="text-deep-blue font-mono pt-10">
+      <p className="text-deep-blue font-mono pt-10 2xl:text-xl">
         Here are a few of my most recent projects. Get to know more about the
         projects by clicking in the images.
       </p>

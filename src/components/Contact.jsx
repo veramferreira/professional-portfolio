@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 export default function Contact() {
   return (
     <section className="lg:sticky lg:top-0 bg-deep-blue px-10 pt-10 pb-20 mb-5" id="contact">
-      <h2 className=" text-bright-yellow font-poppins font-bold text-3xl">
+      <h2 className=" text-bright-yellow font-poppins font-bold text-3xl 2xl:text-4xl">
         let's connect
       </h2>
       <ul className="flex gap-4 sm:gap-8">
