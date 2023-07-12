@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import SectionPic from "./components/SectionPic";
 
-
 function App() {
   return (
     <section id="app">
@@ -14,11 +13,10 @@ function App() {
       <Header />
       <SectionPic />
       <div className=" relative z-10">
-        
-      <About />
-      <Experience />
-      <Portfolio />
-      <Contact/>
+        <About />
+        <Experience />
+        <Portfolio />
+        <Contact />
       </div>
     </section>
   );
