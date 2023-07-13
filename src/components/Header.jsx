@@ -22,7 +22,7 @@ export default function Header() {
   }, []);
 
   return (
-    <div className="pl-20 2xl:py-52 " id="header">
+    <div className="pl-20 2xl:py-52 desktop:py-80 " id="header">
       <section className="px-10 pt-40 title" ref={headerRef}>
         <h1
           className="font-poppins font-extrabold text-7xl 2xl:text-9xl text-bright-pink"
@@ -35,7 +35,7 @@ export default function Header() {
           i build things on the web
         </h2>
       </section>
-      <section className="px-10 pt-5 font-mono text-bright-pink/80 text-lg 2xl:text-2xl">
+      <section className="px-10 pt-5 font-mono text-bright-pink/80 text-lg 2xl:text-2xl  desktop:text-3xl">
         <p>👩‍⚕️ nurse-turned-software developer</p>
         <p>🎨 passionate about design and user experience</p>
         <p>📺 entertainment aficionada</p>
@@ -44,7 +44,7 @@ export default function Header() {
       <section className="px-10 pt-10 pb-40">
         <a
           href="#contact"
-          className="font-bold font-mono text-sm text-bright-yellow transition-all ease-in duration-300 hover:bg-bright-yellow hover:text-deep-blue px-5 py-2 border rounded-lg hover:scale-105 2xl:text-xl"
+          className="font-bold font-mono text-sm text-bright-yellow transition-all ease-in duration-300 hover:bg-bright-yellow hover:text-deep-blue px-5 py-2 border rounded-lg hover:scale-105 2xl:text-xl desktop:text-2xl"
         >
           let's work together
         </a>

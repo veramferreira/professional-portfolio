@@ -14,7 +14,7 @@ export default function Portfolio() {
 
   return (
     <section
-      className=" bg-bright-yellow px-20 py-10  2xl:py-52"
+      className=" bg-bright-yellow px-20 py-10 2xl:py-52"
       id="portfolio"
     >
       <h2 className="font-poppins font-bold text-3xl text-deep-blue 2xl:text-4xl">
@@ -25,7 +25,7 @@ export default function Portfolio() {
         projects by clicking in the images.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10" >
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10 " >
         <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white  dark:bg-ternary-dark" onClick={() => togglePopup(0)}>
           <h4 className=" text-deep-blue font-mono font-bold text-lg text-center px-4 py-6">
             LocaLink - Mobile App

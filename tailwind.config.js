@@ -16,6 +16,9 @@ export default {
       'bright-pink': '#fd8e8e',
       'white': '#fff',
     },
+    // screens: {
+    //   'desktop': '2160px'
+    // },
     extend: {
       padding: {
         'pb:300': '300px',

@@ -1,11 +1,11 @@
 export default function About() {
   return (
     <section
-      className="bg-bright-pink px-20 pt-10 2xl:py-52"
+      className="bg-bright-pink px-20 pt-10 2xl:py-52 desktop:py-80"
       id="about"
     >
-      <h2 className=" font-poppins font-bold text-3xl text-deep-blue 2xl:text-4xl">about</h2>
-      <p className=" text-deep-blue pt-10 normal-case font-mono 2xl:text-xl">
+      <h2 className=" font-poppins font-bold text-3xl text-deep-blue 2xl:text-4xl desktop:text-5xl">about</h2>
+      <p className=" text-deep-blue pt-10 normal-case font-mono 2xl:text-xl desktop:text-2xl desktop:pb-20">
         With a strong foundation in nursing, I bring a unique perspective to the
         world of software development. As a former nurse, I understand the
         importance of designing and creating intuitive, engaging, and accessible
