@@ -14,7 +14,7 @@ export default function Portfolio() {
 
   return (
     <section
-      className=" bg-bright-yellow px-20 py-10 2xl:py-52"
+      className=" bg-bright-yellow px-20 py-10 max-sm:px-10 2xl:py-52"
       id="portfolio"
     >
       <h2 className="font-poppins font-bold text-3xl text-deep-blue 2xl:text-4xl">
@@ -107,6 +107,24 @@ export default function Portfolio() {
           <img src="mindmood.png" alt="" className="border-none object-cover w-full h-64" />
           <div className="flex flex-wrap gap-3 justify-center mb-1 mt-10 px-4">
             {projectsData[4].techStack.map((tech) => (
+              <img
+                src={`${tech.image}`}
+                alt=""
+                key={tech.id}
+                className="w-10 h-10"
+              />
+            ))}
+          </div>
+        </div>
+
+        <div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer hover:scale-105 transition-all pb-10 mb-10 sm:mb-0 bg-white dark:bg-ternary-dark" onClick={() => togglePopup(5)}>
+          <h4 className=" text-deep-blue font-mono font-bold text-lg text-center  px-4 py-6">
+          Dynamic Viewport Grid
+          </h4>
+
+          <img src="grid.gif" alt="" className="border-none object-cover w-full h-64" />
+          <div className="flex flex-wrap gap-3 justify-center mb-1 mt-10 px-4">
+            {projectsData[5].techStack.map((tech) => (
               <img
                 src={`${tech.image}`}
                 alt=""

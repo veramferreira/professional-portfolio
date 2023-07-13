@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section
-      className="bg-bright-pink px-20 pt-10 2xl:py-52 desktop:py-80"
+      className="bg-bright-pink px-20 pt-10 max-sm:px-10 2xl:py-52 desktop:py-80"
       id="about"
     >
       <h2 className=" font-poppins font-bold text-3xl text-deep-blue 2xl:text-4xl desktop:text-5xl">about</h2>

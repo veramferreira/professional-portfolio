@@ -3,6 +3,7 @@ import WebImage2 from "../../public/vnews.png";
 import WebImage3 from "../../public/hct.png";
 import WebImage4 from "../../public/lordsaude.png";
 import WebImage5 from "../../public/mindmood.png";
+import WebImage6 from "../../public/grid.gif";
 
 export const projectsData = [
   {
@@ -86,6 +87,24 @@ export const projectsData = [
     techStack: [
       { name: "Figma", image: "figma.png" },
       { name: "WordPress", image: "wordpress.png" },
+    ],
+  },
+  {
+    id: 6,
+    title: "Dynamic Viewport Grid",
+    category: "Web Application",
+    img: WebImage6,
+    description:
+      "This is a single page application that contains a uniform Grid of viewports (GridArea), with a fixed Sidebar that expands when the Burger button is clicked. The Sidebar contains 'Rows' and 'Columns' ranges that define the number of Rows and Columns, with a viewports at each position. The Grid adapts to browser resizes and Sidebar collapsing/expanding.",
+    appDemo: "https://dynamic-grid.netlify.app/",
+    techStack: [
+      { name: "HTML", image: "html.png" },
+      { name: "CSS", image: "css3.png" },
+      { name: "TypesCript", image: "typescript.png" },
+      { name: "React", image: "react.png" },
+      { name: "Git", image: "git.png" },
+      { name: "GitHub", image: "github.png" },
+      { name: "Jest", image: "jest.png" },
     ],
   },
 ];
