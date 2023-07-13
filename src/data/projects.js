@@ -97,6 +97,7 @@ export const projectsData = [
     description:
       "This is a single page application that contains a uniform Grid of viewports (GridArea), with a fixed Sidebar that expands when the Burger button is clicked. The Sidebar contains 'Rows' and 'Columns' ranges that define the number of Rows and Columns, with a viewports at each position. The Grid adapts to browser resizes and Sidebar collapsing/expanding.",
     appDemo: "https://dynamic-grid.netlify.app/",
+    appCode: "https://github.com/veramferreira/frontend-challenge",
     techStack: [
       { name: "HTML", image: "html.png" },
       { name: "CSS", image: "css3.png" },
