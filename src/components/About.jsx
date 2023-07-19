@@ -6,7 +6,7 @@ export default function About() {
     >
       <h2 className=" font-poppins font-bold text-3xl text-deep-blue 2xl:text-4xl desktop:text-5xl">about</h2>
       <p className=" text-deep-blue pt-10 normal-case font-mono 2xl:text-xl desktop:text-2xl desktop:pb-20">
-        With a strong foundation in nursing, I bring a unique perspective to the
+        With a background in nursing, I bring a unique perspective to the
         world of software development. As a former nurse, I understand the
         importance of designing and creating intuitive, engaging, and accessible
         websites and web applications that prioritise the user's needs. I am
@@ -16,11 +16,11 @@ export default function About() {
         scalable, and efficient web applications that provide an excellent user
         experience.
       </p>
-      <h3 className=" font-poppins font-bold text-3xl text-deep-blue pt-10 2xl:text-4xl">
+      <h3 className=" font-poppins font-bold text-2xl text-deep-blue pt-10 2xl:text-3xl">
         skills
       </h3>
 
-      <div className="flex flex-wrap gap-3 justify-start  mt-10 pb-16" id="about--skills">
+      <div className="flex flex-wrap gap-3 justify-start  mt-10 pb-10" id="about--skills">
         <img src="html.png" alt="html logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
         <img src="css3.png" alt="css logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
         <img src="javascript.png" alt="javascript logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
@@ -40,6 +40,15 @@ export default function About() {
         <img src="jest.png" alt="jest logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
         <img src="psql.svg.png" alt="postgreSQL logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
       </div>
+
+      <h3 className=" font-poppins font-bold text-2xl text-deep-blue pt-10 2xl:text-3xl">
+        currently learning
+      </h3>
+      <div className="flex flex-wrap gap-3 justify-start  mt-10 pb-16" id="about--skills">
+      <img src="php.png" alt="php logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+      <img src="laravel.png" alt="laravel logo" className=" w-20 h-20 bg-white border-8 rounded-md"/>
+      </div>
+
     </section>
   );
 }
