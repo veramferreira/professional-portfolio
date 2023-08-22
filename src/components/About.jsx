@@ -8,13 +8,7 @@ export default function About() {
       <p className=" text-deep-blue pt-10 normal-case font-mono 2xl:text-xl desktop:text-2xl desktop:pb-20">
         With a background in nursing, I bring a unique perspective to the
         world of software development. As a former nurse, I understand the
-        importance of designing and creating intuitive, engaging, and accessible
-        websites and web applications that prioritise the user's needs. I am
-        excited to bring my skills in both frontend and backend development to a
-        collaborative team environment, where I can continue to learn, grow, and
-        contribute to a global company's success by building innovative,
-        scalable, and efficient web applications that provide an excellent user
-        experience.
+        importance of designing and creating intuitive, engaging, and accessible websites and web applications that prioritise the user's needs. I am excited to bring my skills in both frontend and backend development to a collaborative team environment, where I can continue to learn, grow, and contribute to a global company's success by building innovative, scalable, and efficient web applications that provide an excellent user experience.
       </p>
       <h3 className=" font-poppins font-bold text-2xl text-deep-blue pt-10 2xl:text-3xl">
         skills

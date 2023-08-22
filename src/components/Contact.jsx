@@ -42,7 +42,7 @@ export default function Contact() {
         <p className=" font-mono mt-5 text-sm sm:text-base">
           designed and created by vera ferreira with ♥️
         </p>
-        <p className=" font-mono mt-5 text-sm sm:text-base text-right">tech: js | react | tailwind css</p>
+        <p className=" font-mono mt-5 text-sm sm:text-base text-right">tech used: js | react | tailwind css</p>
       </div>
     </section>
   );
