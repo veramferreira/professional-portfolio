@@ -15,10 +15,10 @@ export default function Experience() {
               September 2023
             </time>
             <h3 className="text-lg font-semibold text-bright-pink 2xl:text-2xl desktop:text-3xl">
-            Junior Fullstack Engineer
+            Junior Fullstack Engineer at Informa
             </h3>
             <p className="mb-4 text-base font-normal 2xl:text-xl desktop:text-2xl">
-            Design and develop front and back-end applications aligning with best practice standards.
+            Design and develop front and back-end applications aligning with best practice standards. Participate in the improvement of legacy code and architecture. Participate in the evolution of new code and scalable architecture. Actively review and enhance product performance. Perform cross-browser testing. Contribute to the on-going evolution of system documentation.
             </p>
           </li>
           <li className="mb-10 ml-4">
@@ -27,7 +27,7 @@ export default function Experience() {
               March 2023 - June 2023
             </time>
             <h3 className="text-lg font-semibold text-bright-pink 2xl:text-2xl desktop:text-3xl">
-            Junior Software Developer Student
+            Junior Software Developer Student at Northcoders
             </h3>
             <p className="mb-4 text-base font-normal 2xl:text-xl desktop:text-2xl">
             Successfully completed a 13-week software development bootcamp, covering full-stack web development with JavaScript, Node.js, React, and PSQL.
