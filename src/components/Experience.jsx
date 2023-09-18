@@ -12,7 +12,19 @@ export default function Experience() {
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-white "></div>
             <time className="mb-1 text-sm font-normal leading-none desktop:text-xl">
-              March 2023
+              September 2023
+            </time>
+            <h3 className="text-lg font-semibold text-bright-pink 2xl:text-2xl desktop:text-3xl">
+            Junior Fullstack Engineer
+            </h3>
+            <p className="mb-4 text-base font-normal 2xl:text-xl desktop:text-2xl">
+            Design and develop front and back-end applications aligning with best practice standards.
+            </p>
+          </li>
+          <li className="mb-10 ml-4">
+            <div className="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-white "></div>
+            <time className="mb-1 text-sm font-normal leading-none desktop:text-xl">
+              March 2023 - June 2023
             </time>
             <h3 className="text-lg font-semibold text-bright-pink 2xl:text-2xl desktop:text-3xl">
             Junior Software Developer Student
@@ -24,7 +36,7 @@ export default function Experience() {
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-white "></div>
             <time className="mb-1 text-sm font-normal leading-none desktop:text-xl">
-              November 2019
+              November 2019 - September 2023
             </time>
             <h3 className="text-lg font-semibold text-bright-pink 2xl:text-2xl desktop:text-3xl">
               Freelancer Web Designer/Developer
